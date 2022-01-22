@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <title>pseuso class selectors</title>
+        <style>
+             a :link{
+                color: blue;
+                text-align: justify;
+                
+            }
+            a:hover {
+                 color: hotpink;
+}
+            a:link, a:visited{
+                text-decoration: none;
+                background-color: rosybrown;
+                color: black;
+                border: 1px solid black;
+                display: block;
+                width: 200px;
+                text-align: center;
+                margin: 1px bottom;
+
+            }
+            header li:nth-child(1){
+               font-size: 30px; 
+            }
+
+            a:hover,a:active{
+                background-color: chartreuse;
+                color: darkblue;
+            }
+            
+            a.highlight:hover {
+            color: #ff0000;
+            font-size: 22px;
+            } 
+            header li{
+                list-style: none;
+
+            }
+             
+        </style>
+    </Head>
+    <body>
+        <p>Its a pseudoclass tutorial
+            <a href="canva.com">this is a link</a>
+            
+        </p>
+        <p><a class="highlight" href="css_syntax.asp">CSS Syntax</a></p>
+
+        <header>
+            <ul>
+                <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp">canvalink</a></li>
+                <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp">a link</a></li>
+                <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp">a link</a></li>
+            </ul>
+        </header>
+    </body>
+</html>
